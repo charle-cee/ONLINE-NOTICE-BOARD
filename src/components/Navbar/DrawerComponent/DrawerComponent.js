@@ -17,7 +17,7 @@ const classes = useStyles()
    
     return (
         <>
-       <Drawer  anchor='right'
+       <Drawer  anchor='left'
         onClose={ () => setOpenDrawer(false)}
         open={openDrawer}>
            <List>

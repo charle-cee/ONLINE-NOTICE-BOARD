@@ -69,7 +69,7 @@ export default function Footer(){
                      </Box>
 
                      <Box>
-                         <Link href="/" color="inherit">
+                         <Link href="/" color="inherit" >
                             Instagram
                          </Link>
                      </Box>
@@ -83,7 +83,7 @@ export default function Footer(){
              </Box>
             
              
-         </Container>
+            </Container>
      </Box>
     </footer>
         
