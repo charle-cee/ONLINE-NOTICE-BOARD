@@ -5,6 +5,7 @@ import HomeIcon from '@material-ui/icons/Home'
 import EventAvailableIcon from '@material-ui/icons/EventAvailable';
 import LowPriorityIcon from '@material-ui/icons/LowPriority';
 import NewReleasesIcon from '@material-ui/icons/NewReleases';
+import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
 
 const Navbar = () => {
     const [value, setValue] = useState(0);
@@ -61,7 +62,7 @@ const Navbar = () => {
           
               <Tab icon={<NewReleasesIcon color='secondary' />}label='Latest Events' />
                
-              <Tab icon={<NewReleasesIcon color='secondary' />}label='Search' />
+              <Tab icon={<SearchOutlinedIcon color='secondary' />}label='Search' />
            
            
           </Tabs>
