@@ -5,6 +5,8 @@ import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Grid from './components/Grid/Card';
 import Pages from './components/Pages/Create';
+import Pages from './components/Pages/Layout';
+
 
 const App = () => {
   return (

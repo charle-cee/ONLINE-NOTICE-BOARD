@@ -4,6 +4,7 @@ import SendIcon from '@material-ui/icons/Send';
 import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
 import { makeStyles, TextField, Radio } from '@material-ui/core';
 
+
 const useStyles = makeStyles({
     field: {
         marginTop: 20,
@@ -43,7 +44,11 @@ const Create = () => {
         }
 
         if (title && Description) {
-            console.log(title, Description)
+            fetch('', {
+                method: 'POST',
+                headers: {"content-type": "application/json"},
+                body: JSON.stringify({title, Description,category})
+            }).then(() => history.push('/'))
         }
     }
 
