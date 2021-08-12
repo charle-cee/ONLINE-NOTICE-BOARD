@@ -54,7 +54,7 @@ const Navbar = () => {
               <Tab icon={<HomeIcon color="secondary" />} disableRipple label='Home' />
           
 
-              <Tab icon={<EventAvailableIcon color='secondary' />} label='Recent Events' />
+              <Tab hrf icon={<EventAvailableIcon color='secondary' />} label='Recent Events' />
 
           
               <Tab icon={<LowPriorityIcon color='secondary' />}label='Upcoming Events' />
