@@ -1,0 +1,66 @@
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    letter-spacing: -1px;
+}
+
+.login-form input {
+    min-width: 380px;
+    padding: 20px 0;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solic black;
+    border-radius: 2px;
+    font-size: 15px;
+}
+Button.create-button {
+    background-color: rgb(80, 80, 165);
+    min-width: 380px;
+    width: 400px;
+    height: 50px;
+    padding: 17px 30px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 3px ;
+}
+
+.error-message {
+    color: red;
+    font-size: 16px;
+    font-weight: 300;
+    
+}
+
+.link {
+    color: blue;
+}
+
+Button.goback {
+    background-color: rgb(80, 80, 165);
+    color: white;
+    text-decoration: none;
+}
+
+Button.goback:hover {
+    color: black;
+    font-weight: 600;
+}
+

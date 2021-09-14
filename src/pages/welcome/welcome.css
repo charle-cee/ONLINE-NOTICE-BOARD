@@ -1,0 +1,11 @@
+.welcome-container {
+    display: flex;
+
+
+
+}
+
+.link {
+    text-decoration: none ;
+    color: rgb(12, 12, 11);
+}

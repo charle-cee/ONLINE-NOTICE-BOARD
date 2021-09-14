@@ -1,0 +1,43 @@
+.sidebar {
+    flex: 1;
+    height: calc(100vh);
+    background-color: rgb(214, 214, 243);
+    position: sticky;
+}
+
+.sidebar-container {
+    padding: 20px;
+    color: gainsboro;
+}
+
+.sidebar-menu {
+    margin-bottom: 10px;
+}
+.sidebar-title {
+    font-size: 13px;
+    color: gray;
+
+}
+
+.sidebar-list {
+    list-style: none;
+    padding: 5px;
+}
+
+.sidebar-listitem {
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.sidebar-listitem.active, .sidebar-listitem:hover {
+    background-color: rgb(30, 30, 133);
+}
+
+.sidebar-icon {
+    margin-right: 5px;
+    font-size: 20px !;
+}
